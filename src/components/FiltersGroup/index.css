@@ -1,0 +1,67 @@
+.search-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.search-input {
+  background-color: transparent;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  color: #f1f5f9;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search-button {
+  background-color: #202020;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  outline: none;
+  cursor: pointer;
+}
+.search-icon {
+  font-size: 18px;
+  color: #f1f5f9;
+}
+.employment-types-container,
+.salary-range-container {
+  margin: 20px 0;
+}
+.employment-types-heading,
+.salary-range-heading {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.salary-range-list,
+.employment-types-list {
+  list-style-type: none;
+}
+.custom-label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .search-input-container {
+    display: none;
+  }
+  .employment-types-heading,
+  .salary-range-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .custom-label {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
