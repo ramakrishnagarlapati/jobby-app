@@ -65,8 +65,12 @@
   }
   .side-bar {
     flex-basis: 40%;
+    align-self: flex-start;
     max-width: 350px;
     flex-shrink: 0;
+    position: sticky;
+    top: 0px;
+    left: 0;
   }
   .jobs-container {
     flex-grow: 1;
